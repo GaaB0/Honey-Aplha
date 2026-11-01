@@ -10,8 +10,8 @@ android {
         applicationId 'com.honeyspace.bridge'
         minSdk 26
         targetSdk 35
-        versionCode 30
-        versionName '4.4'
+        versionCode 31
+        versionName '4.5'
     }
 
     buildTypes {

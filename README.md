@@ -13,6 +13,7 @@ Painel Android para testar e diagnosticar fluxos DeX/visor secundário sem root,
 - Pode escurecer a tela principal enquanto a Presentation está aberta no display secundário.
 - Mantém uma área de toque invisível de 96×64 dp no canto inferior direito para sair da tela preta.
 - Usa ícone adaptativo em vetor com paleta azul inspirada na One UI/Samsung.
+- Inclui fallbacks PNG em mdpi, hdpi, xhdpi, xxhdpi e xxxhdpi para launchers/barra de tarefas que não renderizam ícones adaptativos.
 - Alterna automaticamente entre tema claro e escuro conforme o modo do Android.
 
 ## Compatibilidade

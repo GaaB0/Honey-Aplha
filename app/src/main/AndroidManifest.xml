@@ -9,8 +9,8 @@
     <application
         android:theme="@style/AppTheme"
         android:label="Honey Aplha"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_legacy"
+        android:roundIcon="@mipmap/ic_launcher_legacy"
         android:allowBackup="false"
         android:supportsRtl="true"
         android:resizeableActivity="true"
