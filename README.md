@@ -14,6 +14,7 @@ Painel Android para testar e diagnosticar fluxos DeX/visor secundário sem root,
 - Mantém uma área de toque invisível de 96×64 dp no canto inferior direito para sair da tela preta.
 - Usa ícone adaptativo em vetor com paleta azul inspirada na One UI/Samsung.
 - Inclui fallbacks PNG em mdpi, hdpi, xhdpi, xxhdpi e xxxhdpi para launchers/barra de tarefas que não renderizam ícones adaptativos.
+- Define o mesmo ícone no Manifest da Activity e no `TaskDescription` para recentes e barras DeX que usam o ícone da tarefa.
 - Alterna automaticamente entre tema claro e escuro conforme o modo do Android.
 
 ## Compatibilidade

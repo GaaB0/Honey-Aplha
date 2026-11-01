@@ -1,6 +1,7 @@
 package com.honeyspace.bridge;
 
 import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.Presentation;
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -13,6 +14,7 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Color;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.GradientDrawable;
 import android.hardware.display.DisplayManager;
 import android.net.Uri;
@@ -39,6 +41,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle state) {
         super.onCreate(state);
+        setTaskDescription(new ActivityManager.TaskDescription(
+                "Honey Aplha",
+                BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher_legacy)));
         buildUi();
         // Nenhuma tela externa é aberta automaticamente.
     }
