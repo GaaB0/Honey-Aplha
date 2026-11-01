@@ -11,6 +11,7 @@
         android:label="Honey Aplha"
         android:icon="@mipmap/ic_launcher_legacy"
         android:roundIcon="@mipmap/ic_launcher_legacy"
+        android:logo="@mipmap/ic_launcher_legacy"
         android:allowBackup="false"
         android:supportsRtl="true"
         android:resizeableActivity="true"
@@ -18,6 +19,7 @@
         <activity
             android:name=".MainActivity"
             android:icon="@mipmap/ic_launcher_legacy"
+            android:logo="@mipmap/ic_launcher_legacy"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

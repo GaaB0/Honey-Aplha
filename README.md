@@ -15,6 +15,8 @@ Painel Android para testar e diagnosticar fluxos DeX/visor secundário sem root,
 - Usa ícone adaptativo em vetor com paleta azul inspirada na One UI/Samsung.
 - Inclui fallbacks PNG em mdpi, hdpi, xhdpi, xxhdpi e xxxhdpi para launchers/barra de tarefas que não renderizam ícones adaptativos.
 - Define o mesmo ícone no Manifest da Activity e no `TaskDescription` para recentes e barras DeX que usam o ícone da tarefa.
+- Os fallbacks legacy usam fundo azul totalmente opaco para evitar moldura branca em launchers que encapsulam ícones antigos.
+- O símbolo do ícone é uma estrela branca centralizada, usada tanto no vetor adaptativo quanto nos PNGs legacy.
 - Alterna automaticamente entre tema claro e escuro conforme o modo do Android.
 
 ## Compatibilidade
